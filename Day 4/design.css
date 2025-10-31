@@ -1,0 +1,68 @@
+p[id]
+p::first-letter{
+    background-color: yellow;
+}
+p::first-line{
+     background-color: lightblue;
+}
+p::selection{
+    background-color: lightgreen;
+    color: black;
+}
+
+p::after{
+    content:"after the text";
+
+}
+p::before{
+    content: "before the text ";
+
+}
+div{
+    width: 200px;
+    background-color: lab(51.39% 79.13 -20.84);
+    /* padding-top:20px;
+    padding-right:30px;
+    padding-left: 20px; */
+
+    padding:20px 30px 40px 20px;
+    /* margin in top:30px;
+    margin in bottom:40px;
+    margin;30px right:20px;
+    margin left:50px; */
+    margin:30px 20px;
+    height:300px;
+border:2px solid #3bb743;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQzIv7i1BY3TVVFaj-TVZ3JuDOx35wUzDANQ&s=");
+background-position:center;
+background-size:cover;
+}
+#block-else{
+    background-color: rebeccapurple;
+    display: inline;
+
+}
+span{
+    background-color: rgb(128, 255, 0);
+    display: block;
+    width:300px;
+}
+h1{
+    background-color: rgb(255, 0, 72);
+    /* display: inline-block;
+    display: none; */
+ visibility: hidden;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border:2px s
+}
+.container{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+
+}
+.items{
+ border: 1px solid blue; 
+}
